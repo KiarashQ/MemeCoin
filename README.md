@@ -213,12 +213,12 @@ solana address
 Feel free to fork this repository and customize it for your own projects. Contributions are welcome!
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the `LICENSE` file for more details.
+
+---
 
 ## Resources
-Solana Documentation
-Anchor Framework Documentation
-SPL Token Program
-
-
+- [Solana Documentation](https://docs.solana.com/)
+- [Anchor Framework Documentation](https://www.anchor-lang.com)
+- [SPL Token Program Documentation](https://spl.solana.com/token)
 
