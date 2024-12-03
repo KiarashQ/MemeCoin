@@ -17,6 +17,5 @@ This repository allows you to create and deploy your own meme coin on Solana usi
    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
    rustup update
 Install Anchor CLI:
-bash
-
+```bashbash
 cargo install --git https://github.com/coral-xyz/anchor --tag v0.26.0 anchor-cli --locked
