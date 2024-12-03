@@ -1,0 +1,15 @@
+[programs.localnet]
+meme_coin = "YourProgramIDHere" # Replace with the program ID after deployment
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[scripts]
+test = "anchor test"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+deploy = "anchor deploy"
