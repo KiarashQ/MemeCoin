@@ -57,8 +57,8 @@ anchor --version
 Clone the project and navigate into the directory:
 
 ```bash
-git clone https://github.com/yourusername/meme-coin.git
-cd meme-coin
+git clone https://github.com/KiarashQ/MemeCoin.git
+cd MemeCoin
 ```
 2. Install Node.js Dependencies
 Install dependencies required for testing:
