@@ -213,7 +213,7 @@ solana address
 Feel free to fork this repository and customize it for your own projects. Contributions are welcome!
 
 ## License
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the `LICENSE` file for more details.
+This project is licensed under the MIT License. See the [LICENSE](https://opensource.org/licenses/MIT) file for more details.
 
 ---
 
