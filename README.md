@@ -28,7 +28,7 @@ Verify the installation:
 ```bash
 solana --version
 ```
-2. Rust
+### 2. Rust
 Install Rust and its package manager, Cargo:
 
 ```bash
@@ -41,7 +41,7 @@ Verify the installation:
 ```bash
 rustc --version
 ```
-3. Anchor Framework
+### 3. Anchor Framework
 Install the Anchor CLI, which simplifies Solana smart contract development:
 
 ```bash
@@ -52,7 +52,7 @@ Verify the installation:
 ```bash
 anchor --version
 ```
-Setup Instructions
+## Setup Instructions
 1. Clone the Repository
 Clone the project and navigate into the directory:
 
@@ -98,7 +98,7 @@ Check the configuration:
 ```bash
 solana config get
 ```
-Customization
+## Customization
 1. Update the Total Supply
 In test/meme_coin.js, update the initialize method to set the desired total supply of your token:
 
@@ -120,7 +120,7 @@ In programs/meme_coin/src/lib.rs, adjust the decimals in the Initialize struct:
 ```
 Change mint::decimals = 9 to the number of decimals you want.
 
-Build and Deploy
+## Build and Deploy
 1. Build the Program
 Compile the smart contract:
 
@@ -139,7 +139,7 @@ After deployment, Anchor will output your Program ID. Update the Anchor.toml fil
 [programs.localnet]
 meme_coin = "YourProgramIDHere"
 ```
-Testing the Program
+## Testing the Program
 Run Tests
 Run the pre-configured tests:
 
@@ -157,7 +157,7 @@ If the test fails, use the following to inspect logs:
 ```bash
 solana logs
 ```
-Additional Tools and Commands
+## Additional Tools and Commands
 Check Deployed Program
 To verify your program is deployed:
 
@@ -188,7 +188,7 @@ To free up space by removing old build files:
 ```bash
 rm -rf target/
 ```
-Common Errors and Fixes
+## Common Errors and Fixes
 1. Out of Funds
 If you see an error about insufficient funds, ensure your wallet has enough SOL:
 
@@ -209,13 +209,13 @@ Ensure your wallet and Solana configuration are correct:
 solana config get
 solana address
 ```
-Contributing
+## Contributing
 Feel free to fork this repository and customize it for your own projects. Contributions are welcome!
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Resources
+## Resources
 Solana Documentation
 Anchor Framework Documentation
 SPL Token Program
